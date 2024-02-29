@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+/* body organization for entire document */
+body {
+  background-color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
+
+body .angrybody {
+    background-color: maroon;
+}
+
+/* red button with a raised edge */
+.mainbutton {
+  color: white;
+  background-color: red;
+  height: 300px;
+  width: 300px;
+  font-size: 35px;
+  font-weight: bold; 
+  border: 2px solid black;
+  border-radius: 50%;
+  /* gives the button some "height" */
+  box-shadow: 0px 25px 0px 0px #63666A;
+}
+
+/* when the button is clicked, shorten the edge to look "pressed" 
+ and move the button down to compensate */
+.mainbutton:active {
+  transform: translateY(10px);
+  box-shadow: 0 15px 0 0 #63666A;
+}
+
+.mainbutton .angry {
+    background-color: yellow;
+    height: 500px;
+    width: 800px;
+}
+
+.green {
+  background-color: limegreen;
+}
+
+/* unused atm, example play area boundaries */
+#playarea {
+  /* border: 2px solid red; */
+}
+
+.header {
+    height: 150px;
+    width: 100%;
+    /* border: 2px solid black; */
+    font-size: 75px;
+    text-align: center;
+}
+
+
+
+/* .greenbutton {
+  background-color: limegreen;
+  height: 300px;
+  width: 300px;
+  font-size: 35px;
+  border-radius: 50%;
+  color: white;
+}
+
+.greenbutton:active {
+  height: 295px;
+  width: 295px;
+} */
